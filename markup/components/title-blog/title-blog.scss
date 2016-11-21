@@ -1,0 +1,17 @@
+.title-blog{
+  position: relative;
+  width: 100%;
+}
+
+.title-blog__wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 300px;
+}
+
+.title-page{
+  font-size: 2.5rem;
+  font-family: $main_header-ff;
+  letter-spacing: .12rem;
+  text-align: center;
+}
