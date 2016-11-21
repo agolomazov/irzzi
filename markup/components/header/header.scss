@@ -1,0 +1,70 @@
+.header{
+  position: relative;
+  width: 100%;
+}
+
+.header-wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 300px;
+}
+
+.logo{
+  float: left;
+  height: 67px;
+  padding: 10px 0;
+  width: 196px;
+}
+
+.navigation{
+  margin: 0 20px 0 230px;
+}
+
+.menu{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  min-height: 87px;
+  padding: 0;
+}
+
+.menu__item{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu-link{
+  color: $color-menu-item;
+  border-bottom: 1px dashed $color-menu-item;
+  padding-bottom: 1px;
+  text-decoration: none;
+
+  &:hover{
+    border-bottom: 1px dashed transparent;
+  }
+}
+
+.toggle-menu-btn{
+  display: none;
+  background-color: $color-menu-item;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  height: 32px;
+  width: 32px;
+
+  &:active{
+    background-color: darken($color-menu-item, 10%);
+  }
+}
+
+.toggle-menu-btn svg{
+  fill: $white;
+  height: 20px;
+  width: 20px;
+}
