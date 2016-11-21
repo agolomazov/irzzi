@@ -1,0 +1,27 @@
+.page__footer{
+  display: flex;
+
+}
+
+.footer{
+  position: relative;
+  min-height: 100px;
+  width: 100%;
+}
+
+.footer-wrapper{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  min-width: 300px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.copyrights{
+  color: lighten($gray, 10%);
+  font-size: .875rem;
+}
