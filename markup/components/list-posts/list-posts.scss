@@ -90,25 +90,26 @@
   padding: 0;
 }
 
-.post-meta.date-published{
-  background: url(%=static=%assets/list-posts/clock.svg) no-repeat;
-  background-position: 0 0;
-  -webkit-background-size: 13px 13px;
-  background-size: 13px 13px;
+.post-meta{
   padding-left: 18px;
 }
-
 .published-time{
   color: lighten($gray, 20%);
   font-style: italic;
 }
 
-.post-meta.author-punlished{
-  background: url(%=static=%assets/list-posts/author.svg) no-repeat;
+.author-punlished{
   background-position: 0 0;
-  -webkit-background-size: 13px 13px;
-  background-size: 13px 13px;
-  padding-left: 18px;
+  -webkit-background-size: 13px 13px !important;
+  background-size: 13px 13px !important;
+  background: url(%=static=%assets/list-posts/author.svg) no-repeat;
+}
+
+.date-published{
+  background-position: 0 0;
+  -webkit-background-size: 13px 13px !important;
+  background-size: 13px 13px !important;
+  background: url(%=static=%assets/list-posts/clock.svg) no-repeat;
 }
 
 .post-meta__link{
